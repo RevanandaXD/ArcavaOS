@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Be Sincere (prod. Ultimis)",
+    "mood": "chill",
+    "source": "./assets/music/Be Sincere (prod. Ultimis).mp3"
+  },
+  {
+    "id": 2,
+    "title": "Chill Day",
+    "mood": "chill",
+    "source": "./assets/music/Chill Day.mp3"
+  },
+  {
+    "id": 3,
+    "title": "Distant (prod. mist3r)",
+    "mood": "damn",
+    "source": "./assets/music/Distant (prod. mist3r).mp3"
+  },
+  {
+    "id": 4,
+    "title": "Lost Love (Prod. Johto)",
+    "mood": "damn",
+    "source": "./assets/music/Lost Love (Prod. Johto) ALL PLATFORMS!.mp3"
+  },
+  {
+    "id": 5,
+    "title": "Nothing to Me (prod. faux sala)",
+    "mood": "damn",
+    "source": "./assets/music/Nothing to Me (prod. faux sala).mp3"
+  },
+  {
+    "id": 6,
+    "title": "Guardian Tales BGM - Little Princess' Theme",
+    "mood": "nostalgic",
+    "source": "./assets/music/Guardian Tales BGM - Little Princess' Theme.mp3"
+  },
+  {
+    "id": 7,
+    "title": "Guardian Tales- Requiem By Idol Cecil",
+    "mood": "nostalgic",
+    "source": "./assets/music/Guardian Tales- Requiem By Idol Cecil.mp3"
+  },
+  {
+    "id": 8,
+    "title": "Zimmer Grandioso - Hometowns",
+    "mood": "chill",
+    "source": "./assets/music/Zimmer Grandioso - Hometowns.mp3"
+  },
+  {
+    "id": 9,
+    "title": "Shostakovich Waltz No2 for Piano",
+    "mood": "chill",
+    "source": "./assets/music/Shostakovich Waltz No2 for Piano.mp3"
+  },
+  {
+    "id": 10,
+    "title": "Shuumatsu Nani Shitemasu Ka -OST - [Scarborough Fair] Tamaru Yamada",
+    "mood": "damn",
+    "source": "./assets/music/Shuumatsu Nani Shitemasu Ka -OST - [Scarborough Fair] Tamaru Yamada.mp3"
+  }
+]

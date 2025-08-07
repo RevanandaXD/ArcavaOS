@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArcavaOS - Hyperland Linux Simulation</title>
+  <meta name="description" content="ArcavaOS is a beautiful Linux desktop simulation based on Hyperland. Featuring neofetch, cava, a terminal music player, and a digital clock — perfect for ricing fans and Unixporn lovers." />
+  <meta name="keywords" content="ArcavaOS, Linux simulation, Hyperland, neofetch, cava, terminal music, digital clock, ricing, Unixporn, Arch Linux simulator, minimal desktop, aesthetic Linux" />
+  <meta name="author" content="Revananda Pasha" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#1B1E32" />
+
+  <meta property="og:title" content="ArcavaOS - Hyperland Linux Simulation Inspired by Unixporn" />
+  <meta property="og:description" content="A stylish Hyperland-based Linux simulation with neofetch, cava, music, and clock. Built for ricing and Unixporn fans." />
+  <meta property="og:image" content="https://i.postimg.cc/X7FBtzJN/image.png" />
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="website" />
+
+  <link rel="shortcut icon" href="assets/images/LogoArcavaOS.svg" type="svg">
+
+  <link rel="canonical" href="https://yourdomain.netlify.app/" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style/landing.css">
+
+</head>
+<body>
+  <section class="main-section">
+    <h1 class="title" data-aos="fade" data-aos-delay="200">Sometime, <br> We Need Time For Chill</h1>
+    <p class="description" data-aos="fade" data-aos-delay="200">
+      Sometimes we barely have time to relax. Setting up music and visualizers like Cava on Linux can be overwhelming. This website brings you that calm Linux music experience directly in your browser, no Linux required.
+    </p>
+    <div class="parent">
+      <div class="command1" data-aos="fade" data-aos-delay="200">
+        <p class="text-terminal-top">
+          user@arch → neofetch
+        </p>
+        <div class="container-neofetch">
+          <img src="assets/images/ArchNeofetch.svg" alt="neofetch" class="neofetch">
+          <dl class="information">
+          </dl>
+        </div>
+        <div id="terminal" class="text-terminal-bottom" contenteditable="true"></div>
+        </textarea>
+      </div>
+      <div class="command2" data-aos="fade" data-aos-delay="200">
+        <strong class="clock">12:00:00</strong>
+        <p class="date">06-08-2025</p>
+      </div>
+      <div class="command3" data-aos="fade" data-aos-delay="200">
+        <h2 class="status">Currently Playing</h2>
+        <div class="music-container">
+          <strong class="music-name"></strong>
+        </div>
+        <div class="container-btn">
+          <button class="prev"><i class="fa-solid fa-backward"></i></button>
+          <button class="start"><i id="icon" class="fa-solid fa-play"></i></button>
+          <button class="next"><i class="fa-solid fa-forward"></i></button>
+        </div>
+      </div>
+      <div class="command4" data-aos="fade" data-aos-delay="200">
+        <audio src="" id="music" control></audio>
+        <canvas id="visualizer" width="800" height="200"></canvas>
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/script/animation.js"></script>
+  <script src="assets/script/landing.js"></script>
+</body>
+</html>
