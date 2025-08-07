@@ -357,6 +357,7 @@ body::-webkit-scrollbar-thumb {
   }
   .main-section .parent .command3 .music-name {
     font-size: 1rem;
+    white-space: wrap;
   }
   .main-section .parent .command3 .container-btn {
     gap: 25px;
